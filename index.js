@@ -27,16 +27,16 @@ if (suhuAir >= -100 && suhuAir <= 0) {
 // - Jika mobil CC kurang dari 1500 maka PERTAMAX
 // - Jika mobil CC diatas atau sama dengan 1500 maka pertamax turbo
 
-// let plat = "hitam";
-// let jenisKendaraan = "mobil"
-// let cc = 1600;
-//   // - Jika plat kuning atau motor maka BBM subsidi
-//   if (plat === "kuning" || jenisKendaraan === "motor") {
-//     console.log("BBM subsidi");
-//     // - Jika mobil CC kurang dari 1500 maka PERTAMAX
-//   } else if (cc < 1500 && jenisKendaraan === "mobil") {
-//     console.log("PERTAMAX");
-//     // - Jika mobil CC diatas atau sama dengan 1500 maka pertamax turbo
-//   } else if (cc >= 1500 && jenisKendaraan === "mobil") {
-//     console.log("Pertamax Turbo");
-//   }
+let plat = "hitam";
+let jenisKendaraan = "mobil"
+let cc = 1600;
+  // - Jika plat kuning atau motor maka BBM subsidi
+  if (plat === "kuning" || jenisKendaraan === "motor") {
+    console.log("BBM subsidi");
+    // - Jika mobil CC kurang dari 1500 maka PERTAMAX
+  } else if (cc < 1500 && jenisKendaraan === "mobil") {
+    console.log("PERTAMAX");
+    // - Jika mobil CC diatas atau sama dengan 1500 maka pertamax turbo
+  } else if (cc >= 1500 && jenisKendaraan === "mobil") {
+    console.log("Pertamax Turbo");
+  }
